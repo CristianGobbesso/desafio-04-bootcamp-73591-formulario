@@ -10,7 +10,7 @@
 <body>
   <h1>Veni al Gym! 💪🏼​</h1>
 
-  <form action="#" method="post">
+  <form action="https://postman-echo.com/post" method="post">
 
     <fieldset>
       <legend>🙋🏼‍♂️​ Datos Personales 👀​</legend>
@@ -30,9 +30,9 @@
       </div>
 
       <div>
-        <label for="lbl-nacionalidad">Nacionalidad:*</label>
-        <select name="lbl-nacionalidad" id="lbl-nacionalidad" required>
-          <option value="" disabled selected hidden>-Seleccionar-</option>
+        <label  for="">Nacionalidad:*</label>
+        <select  name="nacionalidad" id="lbl-nacionalidad"  required>
+          <option value="" disabled selected hidden>- Seleccionar -</option>
           <option value="Argentina">Argentina</option>
           <option value="Brasil">Brasil</option>
           <option value="Chile">Chile</option>
@@ -55,12 +55,12 @@
         <div>
           <label for="lbl-sexo">Sexo:*</label>
         </div>
-        <input type="radio" name="sexo" id="lbl-sexo" required>
-        <label for="lbl-sexo">Femenino</label>
-        <input type="radio" name="sexo" id="lbl-sexo" required>
-        <label for="lbl-sexo">Masculino</label>
-        <input type="radio" name="sexo" id="lbl-sexo" required>
-        <label for="lbl-sexo">Otro</label>
+        <input type="radio" name="sexo" id="lbl-sexo" value="Femenino" required>
+        <label for="">Femenino</label>
+        <input type="radio" name="sexo" id="lbl-sexo" value="Masculino" required>
+        <label for="">Masculino</label>
+        <input type="radio" name="sexo" id="lbl-sexo" value="Otro" required>
+        <label for="">Otro</label>
       </div>
 
     </fieldset>
@@ -88,39 +88,39 @@
       <p>Sede Palermo:</p>
 
       <div>
-        <input type="checkbox" name="actividades" id="lbl-basquet">
+        <input type="checkbox" name="actividades" id="lbl-basquet" value="Basquet">
         <label for="lbl-basquet">Básquet</label>
-        <input type="checkbox" name="actividades" id="lbl-boxeo">
+        <input type="checkbox" name="actividades" id="lbl-boxeo" value="Boxeo">
         <label for="lbl-boxeo">Boxeo</label>
-        <input type="checkbox" name="actividades" id="lbl-futbol">
+        <input type="checkbox" name="actividades" id="lbl-futbol" value="Futbol">
         <label for="lbl-futbol">Fútbol</label>
-        <input type="checkbox" name="actividades" id="lbl-tenis">
+        <input type="checkbox" name="actividades" id="lbl-tenis" value="Tenis">
         <label for="lbl-tenis">Tenis</label>
       </div>
 
       <p>Sede Rosario:</p>
 
       <div>
-        <input type="checkbox" name="actividades" id="lbl-bask">
+        <input type="checkbox" name="actividades" id="lbl-bask" value="Basquet">
         <label for="lbl-bask">Básquet</label>
-        <input type="checkbox" name="actividades" id="lbl-fut">
+        <input type="checkbox" name="actividades" id="lbl-fut" value="Futbol">
         <label for="lbl-fut">Fútbol</label>
-        <input type="checkbox" name="actividades" id="lbl-rugby">
+        <input type="checkbox" name="actividades" id="lbl-rugby" value="Rugby">
         <label for="lbl-boxeo">Rugby</label>
-        <input type="checkbox" name="actividades" id="lbl-voley">
+        <input type="checkbox" name="actividades" id="lbl-voley" value="Voley">
         <label for="lbl-voley">Voley</label>
       </div>
 
     </fieldset>
 
     <div>
-      <input type="checkbox" name="terminos" id="lbl-terminos">
-      <label for="lbl-terminos">Acepto las condiciones*</label>
+      <input type="checkbox" name="terminos" id="lbl-terminos"  varequired value="Terminos">
+      <label for="">Acepto las condiciones*</label>
     </div>
 
     <div>
-      <input type="checkbox" name="terminos" id="lbl-novedades">
-      <label for="lbl-novedades">Deseo recibir novedades</label>
+      <input type="checkbox" name="terminos" id="lbl-novedades" value="Novedades">
+      <label for="">Deseo recibir novedades</label>
     </div>
 
     <p>*: campo obligatorio.</p>
