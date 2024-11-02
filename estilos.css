@@ -2,6 +2,7 @@
     box-sizing: border-box;
 
 }
+
 :root {
     --letra-poppins: "Poppins", sans-serif;
     --letra-roboto: 'Roboto', sans-serif;
@@ -10,25 +11,29 @@
     --color-fondo-form:#dbece3;
     --color-fondo-form-cli: #a7c5bd;
     --color-letra: white;
+    --color-borde-btn: #445c54 ;
 }
 
 .tipografia-roboto {
     font-family: var(--letra-roboto);
-    font-weight: 25px;
     text-transform: uppercase;
+    font-size: small;
+    font-weight: 500;
+    
+}
+
+.letra-grande {
+    font-size: 15px;
 }
 
 .tipografia-poppins {
     font-family: var(--letra-poppins);
+    font-weight: 900;
     
-    
-}
-body {
-    background-color: var(--color-fondo);
 }
 
-.color-letra {
-    color: var(--color-letra);
+body {
+    background-color: var(--color-fondo);
 }
 
 h1 {
@@ -39,13 +44,18 @@ h1 {
     
 }
 
+.color-letra {
+    color: var(--color-letra);
+}
+
+
 .field {  
+    width: auto;
     background-color:var(--color-fondo-form);
     border: 1px solid var(--color-bordes);
     border-radius: 3px;
     margin-bottom: 35px;
     
-
 }
 
 .bordes {
@@ -61,17 +71,20 @@ h1 {
     margin-top: 10px;
     border: 1px solid var(--color-bordes);
     border-radius: 3px;
+
 }
 
 form {
-    width: 40%;
-    padding: 40px;
+    
+    width: 50%;
+    padding: 30px;
     margin: auto;
     
 }
 
 .ph-der::placeholder {
     text-align: right;
+
 }
 
 .texto-centrado {
@@ -101,12 +114,15 @@ form {
 .btn-centrado {
     text-align: center;
 }
+
 .btn-color {
+
     background-color: var(--color-bordes);
-    padding: 7px;
+    padding: 15px;
+    margin: 10px;
     text-decoration: none;
     color: var(--color-letra);
-    border: 1px solid var(--color-bordes);
+    border: 2px solid var(--color-borde-btn);
     border-radius: 4px;
 }
 
@@ -125,5 +141,30 @@ form {
     height: 10px; 
     text-align: center;
     margin: 10px;
+
+}
+
+
+                /* acciones del cursor */
+input:focus {
+    background-color:var(--color-bordes);
+
+}     
+
+textarea:focus {
+    background-color:var(--color-bordes);
+
+}
+
+fieldset:focus-within {
+    background-color:var(--color-fondo-form-cli); 
+}
+
+form button:hover {
+    background-color: var(--color-fondo-form-cli);
+    border: 2px solid rgba(15, 15, 15, 0.843);
+    border-radius:5px;
+    border-style: groove;
+    
     
 }
