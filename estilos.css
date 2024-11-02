@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+
+}
+:root {
+    --letra-poppins: "Poppins", sans-serif;
+    --letra-roboto: 'Roboto', sans-serif;
+    --color-fondo: #1d2425 ;
+    --color-bordes:#4c6c64;
+    --color-fondo-form:#dbece3;
+    --color-fondo-form-cli: #a7c5bd;
+    --color-letra: white;
+}
+
+.tipografia-roboto {
+    font-family: var(--letra-roboto);
+    font-weight: 25px;
+    text-transform: uppercase;
+}
+
+.tipografia-poppins {
+    font-family: var(--letra-poppins);
+    
+    
+}
+body {
+    background-color: var(--color-fondo);
+}
+
+.color-letra {
+    color: var(--color-letra);
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+.field {  
+    background-color:var(--color-fondo-form);
+    border: 1px solid var(--color-bordes);
+    border-radius: 3px;
+    margin-bottom: 35px;
+    
+
+}
+
+.bordes {
+    border: 1px solid #4c6c64 ;
+
+}
+
+
+.control {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid var(--color-bordes);
+    border-radius: 3px;
+}
+
+form {
+    width: 40%;
+    padding: 40px;
+    margin: auto;
+    
+}
+
+.ph-der::placeholder {
+    text-align: right;
+}
+
+.texto-centrado {
+    display: block;
+    text-align: center;
+    margin: 0 40px 0 40px;
+    
+
+}
+
+.bordes-titulo {
+    
+    border-top: 20px solid  #4c6c64 ;
+    border-bottom: 20px solid  #4c6c64 ;
+
+
+}
+
+.recuadro {
+    border: 3px solid #4c6c64 ;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:var(--color-bordes) ;
+}
+
+.btn-centrado {
+    text-align: center;
+}
+.btn-color {
+    background-color: var(--color-bordes);
+    padding: 7px;
+    text-decoration: none;
+    color: var(--color-letra);
+    border: 1px solid var(--color-bordes);
+    border-radius: 4px;
+}
+
+.contenedor {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.simbolo {
+    display: inline-block;
+    background-color: #a0bbb4;
+    color: transparent;
+    border-radius: 50%;
+    width: 10px; 
+    height: 10px; 
+    text-align: center;
+    margin: 10px;
+    
+}
