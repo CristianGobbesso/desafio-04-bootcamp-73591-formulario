@@ -9,46 +9,69 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
+
   <title>Afiliación</title>
 </head>
 
 <body>
-  <div class="contenedor " >
-  <h1 class="color-letra bordes-titulo tipografia-poppins">Vení al Gym! 💪🏼​</h1>
+  <div class="contenedor ">
+
+    <h1 class="color-letra bordes-titulo tipografia-poppins">Vení al Gym! 💪🏼​</h1>
+
   </div>
 
-  <form action="https://postman-echo.com/post" method="post" target="_blank">
+  <form  action="https://postman-echo.com/post" method="post" target="_blank">
 
-    <fieldset class="field bordes">
-      <legend class="recuadro color-letra tipografia-roboto">🙋🏼‍♂️​ Datos Personales 👀​</legend>
-      <div class="texto-centrado">
+    <fieldset class="field bordes ">
+
+      <legend class="recuadro color-letra tipografia-roboto ">🙋🏼‍♂️​ <span class="letra-grande">D</span>atos <span class="letra-grande">P</span>ersonales 👀​</legend>
+
+      <div class="texto-centrado relleno ">
+
         <div>
+
           <label class="margin-lbl" for="lbl-nombre"> Nombre:* </label>
+
         </div>
-        
-          <input class="control" type="text" id="lbl-nombre" name="nombre" required>
-        
+
+        <div class="relleno"><input class="control " type="text" id="lbl-nombre" name="nombre" required></div>
+
       </div>
 
       <div class="texto-centrado">
+
         <div>
+
           <label for="lbl-apellido"> Apellido:* </label>
+
         </div>
+
         <input class="control" type="text" id="lbl-apellido" name="apellido" required>
+
       </div>
 
       <div class="texto-centrado">
+
         <div>
+
           <label for="lbl-documento"> Documento:* </label>
+
         </div>
-        <input class="control" type="number" id="lbl-documento" name="documento" required maxlength="8">
+
+        <input class="control" type="number" id="lbl-documento" name="documento" required >
+
       </div>
 
       <div class="texto-centrado">
+
         <div>
+
           <label for="lbl-nacionalidad">Nacionalidad:*</label>
+
         </div>
-        <select  class="control" name="nacionalidad" id="lbl-nacionalidad" required>
+
+        <select class="control" name="nacionalidad" id="lbl-nacionalidad" required>
+
           <option value="" disabled selected hidden>- Seleccionar -</option>
           <option value="Argentina">Argentina</option>
           <option value="Brasil">Brasil</option>
@@ -60,31 +83,49 @@
           <option value="Venezuela">Venezuela</option>
           <option value="Ecuador">Ecuador</option>
           <option value="Otra">Otra</option>
+
         </select>
+
       </div>
 
       <div class="texto-centrado">
+
         <div>
+
           <label for="lbl-info">Contanos un poco de vos...</label>
+
         </div>
+
         <textarea class="control" name="info" id="lbl-info" cols="20" rows="5"></textarea>
+
       </div>
 
       <div class="texto-centrado">
+
         <div>
+
           <label for="lbl-femenino">Sexo:*</label>
+
         </div>
-        <input  type="radio" name="sexo" id="lbl-femenino" value="Femenino" required>
+
+        <input type="radio" name="sexo" id="lbl-femenino" value="Femenino" required>
+
         <label for="lbl-masculino">Femenino</label>
+
         <input type="radio" name="sexo" id="lbl-masculino" value="Masculino" required>
+
         <label for="lbl-otro">Masculino</label>
+
         <input type="radio" name="sexo" id="lbl-otro" value="Otro" required>
+
         <label for="lbl-otro">Otro</label>
+
       </div>
 
     </fieldset>
 
     <div class="contenedor">
+
       <span class="simbolo">°</span>
       <span class="simbolo">°</span>
       <span class="simbolo">°</span>
@@ -96,28 +137,41 @@
       <span class="simbolo">°</span>
       <span class="simbolo">°</span>
       <span class="simbolo">°</span>
+
     </div>
 
     <fieldset class="field">
 
-      <legend class="recuadro color-letra">📱​ Datos de Contacto 📧​</legend>
+      <legend class="recuadro color-letra tipografia-roboto">📱​ <span class="letra-grande">D</span>atos de <span class="letra-grande">C</span>ontacto 📧​</legend>
 
       <div class="texto-centrado">
+
         <div>
+
           <label for="lbl-tel">Teléfono:</label>
+
         </div>
-        <input class="control ph-der" type="tel" name="Telefono" id="lbl-tel"  placeholder="Código de área y número">
+
+        <input class="control ph-der" type="tel" name="Telefono" id="lbl-tel" placeholder="Código de área y número">
+
       </div>
+
       <div class="texto-centrado">
+
         <div>
+
           <label for="lbl-email">Dirección de correo electrónico:*</label>
+
         </div>
+
         <input class="control ph-der" type="email" name="email" id="lbl-email" placeholder="Ej: mail@gmail.com">
+
       </div>
 
     </fieldset>
 
     <div class="contenedor">
+
       <span class="simbolo">°</span>
       <span class="simbolo">°</span>
       <span class="simbolo">°</span>
@@ -129,57 +183,86 @@
       <span class="simbolo">°</span>
       <span class="simbolo">°</span>
       <span class="simbolo">°</span>
+
     </div>
 
     <fieldset class="field">
 
-      <legend class="recuadro color-letra">🚴​ Actividades 🤸🏼‍♂️ ​</legend>
+      <legend class="recuadro color-letra tipografia-roboto"> 🚴 <span class="letra-grande">A</span>ctividades 🤸🏼‍♂️ </legend>
+      <p>Por favor, indicá cuáles actividades te interesan.</p>
 
+      <p>Sede Palermo:</p>
+       
+      <div>
 
-        <p>Por favor, indicá cuáles actividades te interesan.</p>
-        <p>Sede Palermo:</p>
-        <div>
-          <input type="checkbox" name="actividades" id="lbl-basquet" value="Basquet">
-          <label for="lbl-basquet">Básquet</label>
-          <input type="checkbox" name="actividades" id="lbl-boxeo" value="Boxeo">
-          <label for="lbl-boxeo">Boxeo</label>
-          <input type="checkbox" name="actividades" id="lbl-futbol" value="Futbol">
-          <label for="lbl-futbol">Fútbol</label>
-          <input type="checkbox" name="actividades" id="lbl-tenis" value="Tenis">
-          <label for="lbl-tenis">Tenis</label>
-        </div>
-        <p>Sede Rosario:</p>
-        <div >
-          <input type="checkbox" name="actividades" id="lbl-bask" value="Basquet">
-          <label for="lbl-bask">Básquet</label>
-          <input type="checkbox" name="actividades" id="lbl-fut" value="Futbol">
-          <label for="lbl-fut">Fútbol</label>
-          <input type="checkbox" name="actividades" id="lbl-rugby" value="Rugby">
-          <label for="lbl-boxeo">Rugby</label>
-          <input type="checkbox" name="actividades" id="lbl-voley" value="Voley">
-          <label for="lbl-voley">Voley</label>
-        </div>
+        <input type="checkbox" name="actividades" id="lbl-basquet" value="Basquet">
+
+        <label for="lbl-basquet">Básquet</label>
+
+        <input type="checkbox" name="actividades" id="lbl-boxeo" value="Boxeo">
+
+        <label for="lbl-boxeo">Boxeo</label>
+
+        <input type="checkbox" name="actividades" id="lbl-futbol" value="Futbol">
+
+        <label for="lbl-futbol">Fútbol</label>
+
+        <input type="checkbox" name="actividades" id="lbl-tenis" value="Tenis">
+
+        <label for="lbl-tenis">Tenis</label>
+
+      </div>
+
+      <p>Sede Rosario:</p>
+
+      <div>
+
+        <input type="checkbox" name="actividades" id="lbl-bask" value="Basquet">
+
+        <label for="lbl-bask">Básquet</label>
+
+        <input type="checkbox" name="actividades" id="lbl-fut" value="Futbol">
+
+        <label for="lbl-fut">Fútbol</label>
+
+        <input type="checkbox" name="actividades" id="lbl-rugby" value="Rugby">
+
+        <label for="lbl-boxeo">Rugby</label>
+
+        <input type="checkbox" name="actividades" id="lbl-voley" value="Voley">
+
+        <label for="lbl-voley">Voley</label>
+
+      </div>
 
 
     </fieldset>
 
     <div>
+
       <input type="checkbox" name="terminos" id="lbl-terminos" required value="Terminos">
+
       <label for="lbl-terminos" class="color-letra">Acepto las condiciones*</label>
+
     </div>
 
     <div>
+
       <input type="checkbox" name="terminos" id="lbl-novedades" value="Novedades">
+
       <label for="lbl-novedades" class="color-letra">Deseo recibir novedades</label>
+
     </div>
 
     <p class="color-letra">*: campo obligatorio.</p>
 
 
     <div class="btn-centrado">
-      <button class="btn-color"  type="submit">Iniciar afiliación</button>
-    
+
+      <button class="btn-color" type="submit">Iniciar afiliación</button>
+
       <button class="btn-color" type="reset">Restablecer</button>
+
     </div>
 
 
