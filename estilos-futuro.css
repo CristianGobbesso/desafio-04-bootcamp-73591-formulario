@@ -51,7 +51,7 @@ form {
 
 
 body {
-    background-image: url(public/img/fondo-fut.webp);
+    background-image: url(img/fondo-fut.webp);
     background-size: cover;
     background-repeat: no-repeat;
     border: 2px double white;
