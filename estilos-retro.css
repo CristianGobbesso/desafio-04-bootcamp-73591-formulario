@@ -25,6 +25,9 @@ h1 {
     border: 5px  #236c59;
     border-style: dotted solid dotted solid;
     margin-top: 0;
+    text-shadow: 1px 1px 2px black,
+    0 0 1em rgb(218, 173, 83),
+    0 0 0.2em rgb(227, 191, 64)
 }
 
 .hombre-circulo {
@@ -33,6 +36,8 @@ h1 {
     float: left;
     margin: 12px 0 20px 30px;
     border: 3px solid var(--color-fondo);
+    box-shadow:  0 0 1em rgb(218, 173, 83),
+    0 0 0.2em rgb(227, 191, 64) ;
     
 
 }
@@ -43,6 +48,8 @@ h1 {
     float: right;
     margin: 12px 20px 30px 0;
     border: 3px solid var(--color-fondo);
+    box-shadow: 0 0 1em rgb(218, 173, 83),
+    0 0 0.2em rgb(227, 191, 64) ;
 }
 
 .img-fitnes {
@@ -53,6 +60,8 @@ h1 {
     margin: auto;
     border: 4px #236c59;
     border-style: dotted solid dotted solid;
+    box-shadow:  0 0 1em rgb(218, 173, 83),
+    0 0 0.2em rgb(227, 191, 64) ;
     
 }
 
@@ -72,8 +81,8 @@ form {
     background-color: #cab9a1;
     border: 4px #236c59;
     border-style: dotted solid dotted solid;
-    
- 
+    box-shadow:  0 0 1em rgb(218, 173, 83),
+    0 0 0.2em rgb(227, 191, 64) ;
 }
 
 .recuadro {
@@ -91,7 +100,7 @@ form {
     color: black;
     font-size: medium;
     text-transform:uppercase ;
-    
+
 }
 
 .margin-lbl{
@@ -136,6 +145,7 @@ form {
 input:focus {
     background-color:#e8ddc6;
 
+
 }     
 
 textarea:focus {
@@ -146,7 +156,9 @@ textarea:focus {
 form:focus-within {
     background-image: url(public/img/fondo-vin.webp);
     background-position: center;
-    
+    text-shadow: 1px 1px 2px black,
+    0 0 1em rgb(64, 64, 64),
+    0 0 0.2em rgb(90, 89, 89)
 }
 
 form button:hover {
@@ -154,7 +166,9 @@ form button:hover {
     border: 2px solid white;
     border-radius:5px;
     border-style: groove;
-    
+    text-shadow: 1px 1px 2px black,
+    0 0 1em rgb(64, 64, 64),
+    0 0 0.2em rgb(90, 89, 89)
     
 }
 
