@@ -168,3 +168,14 @@ form button:hover {
     
     
 }
+
+.hombre-circulo {
+    display: none;
+}
+
+.mujer-circulo {
+    display: none;
+}
+.img-fitnes {
+    display: none;
+}
