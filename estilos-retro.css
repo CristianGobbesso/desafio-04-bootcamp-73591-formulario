@@ -7,6 +7,10 @@
     font-family: "Satisfy", cursive;;
 }
 
+.tipografia-roboto {
+    font-family: 'Roboto', sans-serif;;
+}
+
 body {
     display: block;
     text-align: right;
@@ -45,19 +49,17 @@ h1 {
     display: inline;
     width: 50%;
     float: left;
-    border-radius: 10%;
+    background-color: #cab9a1;
     margin: auto;
+    border: 4px #236c59;
+    border-style: dotted solid dotted solid;
     
 }
-
-
-
 
 
 .text-size {
     font-size: 70px;
 }
-
 
 
 
@@ -68,17 +70,54 @@ form {
     text-align: center;
     margin-right: 10px;
     background-color: #cab9a1;
-    border: 4px dashed #236c59;
+    border: 4px #236c59;
+    border-style: dotted solid dotted solid;
+    
+ 
+}
 
+.recuadro {
     
+    border: 2px solid #4c6c64 ;
+    border-radius: 5px;
+    padding: 10px;
     
-    
+   
     
 }
 
+
 .letra-lbl {
-    color: #5e09a9;
+    color: black;
+    font-size: medium;
+    text-transform:uppercase ;
     
+}
+
+.margin-lbl{
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.sede {
+    text-decoration:underline;
+}
+
+.posicion {
+    display: block;
+    text-align: start;
+    margin: 10px auto 5px 15px
+}
+
+.btn-color {
+
+    background-color: #e8ddc6;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: var(--color-letra);
+    border: 2px solid black;
+    border-radius: 4px;
 }
 
 
@@ -86,22 +125,37 @@ form {
     display: none;
 }
 
+.ph-der::placeholder {
+    text-align: center;
+
+}
 
 
 /* Acciones del cursor */
 
 input:focus {
-    background-color:#dd2f25;
+    background-color:#e8ddc6;
 
 }     
 
 textarea:focus {
-    background-color:#dd2f25;
+    background-color:#e8ddc6;
 
 }
 
-fieldset:focus-within {
+form:focus-within {
     background-image: url(public/img/fondo-vin.webp);
-    background-position: center;; 
+    background-position: center;
+    
 }
+
+form button:hover {
+    background-color:#e8ddc6;
+    border: 2px solid white;
+    border-radius:5px;
+    border-style: groove;
+    
+    
+}
+
 
