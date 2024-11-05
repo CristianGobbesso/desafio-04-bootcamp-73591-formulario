@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+
 :root {
     --color-fondo: linear-gradient(90deg, rgba(197,166,120,1) 4%, rgba(234,225,204,1) 47%, rgba(211,185,146,1) 94%);
 }
 
 .tipografia-satisfy {
-    font-family: "Satisfy", cursive;;
+    font-family: "Satisfy", cursive;
 }
 
 .tipografia-roboto {
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     display: block;
     text-align: right;
     background: rgb(197,166,120);
-background: linear-gradient(90deg, rgba(197,166,120,1) 4%, rgba(234,225,204,1) 47%, rgba(211,185,146,1) 94%);
+    background: linear-gradient(90deg, rgba(197,166,120,1) 4%, rgba(234,225,204,1) 47%, rgba(211,185,146,1) 94%);
 }
 
 h1 {
@@ -23,11 +24,13 @@ h1 {
     text-align: center;
     padding: 100px;
     border: 5px  #236c59;
-    border-style: dotted solid dotted solid;
+    border-style: double;
     margin-top: 0;
     text-shadow: 1px 1px 2px black,
     0 0 1em rgb(218, 173, 83),
-    0 0 0.2em rgb(227, 191, 64)
+    0 0 0.2em rgb(227, 191, 64);
+    box-shadow:  0 0 1em rgb(218, 173, 83),
+    0 0 0.2em rgb(227, 191, 64) ;
 }
 
 .hombre-circulo {
@@ -39,7 +42,6 @@ h1 {
     box-shadow:  0 0 1em rgb(218, 173, 83),
     0 0 0.2em rgb(227, 191, 64) ;
     
-
 }
 
 .mujer-circulo {
@@ -59,18 +61,15 @@ h1 {
     background-color: #cab9a1;
     margin: auto;
     border: 4px #236c59;
-    border-style: dotted solid dotted solid;
+    border-style: double;
     box-shadow:  0 0 1em rgb(218, 173, 83),
     0 0 0.2em rgb(227, 191, 64) ;
     
 }
 
-
 .text-size {
     font-size: 70px;
 }
-
-
 
 form {
     display: block;
@@ -80,19 +79,17 @@ form {
     margin-right: 10px;
     background-color: #cab9a1;
     border: 4px #236c59;
-    border-style: dotted solid dotted solid;
+    border-style: double;
     box-shadow:  0 0 1em rgb(218, 173, 83),
     0 0 0.2em rgb(227, 191, 64) ;
 }
 
 .recuadro {
     
-    border: 2px solid #4c6c64 ;
+    border: 3px double  #0f1513 ;
     border-radius: 5px;
     padding: 10px;
-    
-   
-    
+    background-color: silver;
 }
 
 
@@ -100,7 +97,6 @@ form {
     color: black;
     font-size: medium;
     text-transform:uppercase ;
-
 }
 
 .margin-lbl{
@@ -120,15 +116,14 @@ form {
 
 .btn-color {
 
-    background-color: #e8ddc6;
+    background-color: silver;
     padding: 15px;
     margin: 10px;
     text-decoration: none;
     color: var(--color-letra);
-    border: 2px solid black;
+    border: 4px double black;
     border-radius: 4px;
 }
-
 
 .icono-titulo {
     display: none;
@@ -136,21 +131,17 @@ form {
 
 .ph-der::placeholder {
     text-align: center;
-
 }
 
 
 /* Acciones del cursor */
 
 input:focus {
-    background-color:#e8ddc6;
-
-
+    background-color:silver;
 }     
 
 textarea:focus {
-    background-color:#e8ddc6;
-
+    background-color:silver;
 }
 
 form:focus-within {
@@ -163,7 +154,7 @@ form:focus-within {
 
 form button:hover {
     background-color:#e8ddc6;
-    border: 2px solid white;
+    border: 2px solid rgb(51, 45, 45);
     border-radius:5px;
     border-style: groove;
     text-shadow: 1px 1px 2px black,
