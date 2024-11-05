@@ -102,6 +102,13 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 20%, rgba(94,94,94,1) 35%, rgba(
 
 }
 
+.ph-der::placeholder {
+    font-weight:bolder; 
+    color: black;
+    text-align: center;
+}
+
+
 /* Acciones del cursor */
 
 input:focus {
@@ -109,7 +116,6 @@ input:focus {
     text-shadow: 1px 1px 2px black,
     0 0 1em rgb(184, 12, 227),
     0 0 0.2em rgb(157, 0, 255);
-
 }     
 
 textarea:focus {
@@ -117,11 +123,9 @@ textarea:focus {
     text-shadow: 1px 1px 2px black,
     0 0 1em rgb(184, 12, 227),
     0 0 0.2em rgb(157, 0, 255);
-
 }
 
 fieldset:focus-within {
-    
     background: rgb(0,0,0);
 background: linear-gradient(9deg, rgba(0,0,0,1) 20%, rgba(94,94,94,1) 35%, rgba(0,0,0,1) 45%, rgba(28,28,28,1) 57%, rgba(117,117,117,1) 65%, rgba(0,0,0,1) 80%);
     border: 1px solid white;
@@ -130,19 +134,12 @@ background: linear-gradient(9deg, rgba(0,0,0,1) 20%, rgba(94,94,94,1) 35%, rgba(
     0 0 0.2em rgb(157, 0, 255);
 }
 
-
-
 form button:hover {
     border-style: dashed;
     text-shadow: 1px 1px 2px black,
     0 0 1em rgb(184, 12, 227),
     0 0 0.2em rgb(157, 0, 255);
 }
-
-
-
-
-
 
 
 
@@ -155,6 +152,7 @@ form button:hover {
 .mujer-circulo {
     display: none;
 }
+
 .img-fitnes {
     display: none;
 }
